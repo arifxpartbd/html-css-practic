@@ -1,8 +1,40 @@
+<ul>
+    <li><a href="default.asp">Home</a></li>
+    <li><a href="news.asp">News</a></li>
+    <li><a href="contact.asp">Contact</a></li>
+    <li><a href="about.asp">About</a></li>
+  </ul>
+
+
 <p>paragrap of the text</p>
 <button>Hello</button>
 <a href="https://www.youtube.com/">Link to you tube</a>
 
 <style>
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
     .mycontainer{
         border: 2px solid;
         color: black;
@@ -27,5 +59,12 @@
 
 <div class="mycontainer">
 <p class="pstyle">This is hover</p>
+</div>
+
+<div class="dropdown">
+  <span>Mouse over me</span>
+  <div class="dropdown-content">
+    <p>Hello World!</p>
+  </div>
 </div>
 
